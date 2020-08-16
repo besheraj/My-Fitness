@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- General Colors and Fonts -----*/
+
+body ,th, tr, .btn-style{
+    font-family: Open Sans,Times, serif;
+    color: #61988E;
+}
+.btn-style {
+    font-family: Open Sans,Times, serif;
+    color: #493843;
+}
+
+/* --------------------------  header */
+
+
+.logo {
+    float: left;
+    font-family: Monoton,Times, serif;
+    letter-spacing: 5px;
+    font-size: 38px;
+    text-transform: uppercase;
+    padding-left: 20px;
+
+
+}
+.logo h1 a {
+    font-weight: 400;
+    color: #61988E;
+
+}
+
+.logo a:hover {
+    color: #E9D758;
+    text-decoration: none;
+}
+
+.menu {
+    padding: 0;
+}
+.menu nav {
+    padding: 0;
+}
+.nav-bg-color {
+    background: #61988E
+}
+
+header span {
+    font-size: 17px;
+    color: #61988E;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+
+}
+header span:hover {
+    color: #E9D758;
+}
+header {
+    background-color: #fafafa;
+    position: fixed;
+    z-index: 3;
+}
+
+/* --------------------------  hero-image */
+
+.container-heroimage {
+    position: relative;
+    background:#fafafa;
+    overflow: hidden;
+    height: 90vh;
+
+}
+.container-heroimage:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 90vh;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url('../images/heroimage.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.heroimage-box {
+    text-align: center;
+    z-index: 2;
+    position: relative ;
+    top: 200px;
+}
+
+
+.heroimage-box h1 {
+    font-weight: 900;
+    margin-bottom: 30px;;
+    margin-bottom: 60px;
+    letter-spacing: 6px;
+    color: #493843;
+    
+
+}
+.heroimage-box p {
+    margin: 18px 0;
+    color: #61988E;
+    font-weight: 600;
+
+}
+.btn-join {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+    background-color: #fafafa;
+}
+
+/* --------------------------  Table Section */
+
+.table-review {
+    background-color: #fafafa;
+
+}
+
+.classes-container{
+    background-color: #fafafa;
+}
+
+
+.row-style {
+    background-color: #dbd5d5;
+}
+.table-title {
+    background-color: #b8b3b3;
+
+}
+.heading-classes {
+    padding: 90px 30px 30px 30px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/* --------------------------  Review Section */
+
+.review-heading {
+    text-align: center;
+}
+.heading  {
+    padding: 30px 0; 
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #493843;
+
+
+}
+.review-body {
+    text-align: left;
+}
+.review {
+    padding-bottom: 50px;
+}
+
+/* --------------------------  Find Us Section */
+
+.findus {
+    background-color: #f1f1f1;
+    padding: 50px;
+}
+#map {
+    height: 300px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+}
+.contact-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+.contact-info-item .key,
+.contact-info-item .value {
+    padding-right: 8px;
+    display: inline-block; 
+}
+.contact-info-item .key p,
+.contact-info-item .value p {
+    margin: 0;
+}
+.contact-info-item .key {
+    width:30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top 
+}
+.contact-info-item .key p {
+    font-weight: 500;
+}
+.contact-info-item .value {
+    position: relative;
+    width: 60%;
+}
+.contact-heading {
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+/* --------------------------  Contact Form Section */
+
+.contact-form {
+    padding: 50px;
+    text-align: center;
+    background-color: #fafafa;
+
+}
+.contact-form h4 {
+    padding: 15px;
+}
+.contact-form botton {
+    margin: 15px;
+}
+.form-control {
+    margin-bottom: 10px;
+}
+.btn-secondary {
+    background-color: #fafafa;
+}
+/* --------------------------  Footer Section */
+
+footer {
+    background-color: #f1f1f1;
+}
+hr {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+.social {
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+.social li {
+    padding: 30px;
+
+}
+.social ul li {
+    margin: 0 25px;
+}
+.social li a i  {
+
+    padding: 12px 0;
+    font-size: 30px;
+    line-height: 7px;
+    text-align: center;
+    color: #61988E;
+    -transition: all 0.35 ease-in-out;
+    -moz-transition: all 0.35 ease-in-out;
+    -webkit-transition: all 0.35 ease-in-out;
+    -o-transition: all 0.35 ease-in-out;
+}
